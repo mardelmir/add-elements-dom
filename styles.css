@@ -4,3 +4,89 @@
     padding: 0px;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: rgb(227, 242, 255);
+}
+
+header>i {
+    font-size: 30px;
+    color: rgb(20, 109, 187);
+    margin-top: 6px;
+}
+
+h1 {
+    color: rgb(20, 109, 187);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    margin: 5em;
+}
+
+#agregar {
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+    padding: 7px;
+    background-color: rgb(205, 250, 171);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .4);
+    color: rgb(41, 136, 4);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-size: large;
+    transition: all .1s linear;
+}
+
+#borrarUno {
+    position: absolute;
+    bottom: 100px;
+    right: 50px;
+    padding: 7px;
+    background-color: rgb(255, 231, 207);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .4);
+    color: rgb(202, 99, 20);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-size: large;
+    transition: all .1s linear;
+}
+
+#clear {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    padding: 7px;
+    background-color: rgb(243, 213, 223);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, .4);
+    color: rgb(164, 47, 84);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-size: large;
+    transition: all .1s linear;
+}
+
+
+#agregar:hover, #borrarUno:hover, #clear:hover {
+    box-shadow: 0px 5px 15px -5px black;
+    transition: all .1s linear;
+}
+
+#agregar:active, #borrarUno:active,#clear:active {
+    transition: none;
+    box-shadow: 0px 1px 3px black;
+}

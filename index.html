@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DOM</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
-<body>
-  <h1>Lista de Elementos</h1>
-    <ul id="lista"></ul>
-    <button id="boton">Agregar elemento</button>
 
-    <script src="./js/script.js"></script>
+<body>
+  <header>
+    <i class="bi bi-list-ul"></i>
+    <h1>Lista de Elementos</h1>
+  </header>
+  <div class="contenedor">
+    <ul id="lista">
+    </ul>
+    <button id="agregar">Agregar elemento</button>
+    <button id="borrarUno">Borrar último elemento</button>
+    <button id="clear">Borrar todo</button>
+  </div>
+  <script src="./js/script.js"></script>
 </body>
+
 </html>
