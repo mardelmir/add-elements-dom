@@ -13,10 +13,10 @@ header {
     background-color: rgb(227, 242, 255);
 }
 
-header>i {
-    font-size: 30px;
+header>svg {
+    height: 30px;
+    width: 30px;
     color: rgb(20, 109, 187);
-    margin-top: 6px;
 }
 
 h1 {
