@@ -10,6 +10,13 @@ agregar.addEventListener('click', function () {
    lista.appendChild(item);
 })
 
+/* 
+agregar.addEventListener ('click', function() {
+   const pregunta = prompt ('Introducir elemento');
+   lista.insertAdjacentHTML('beforebegin', `<li>${pregunta}</li>);
+})
+*/
+
 // Esto no está en el ejercicio, pero me parecía lógico por si te equivocas o quieres volver a empezar sin recargar.
 
 const borrarUno = document.getElementById('borrarUno');
